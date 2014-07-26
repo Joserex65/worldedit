@@ -381,7 +381,7 @@ public class PlatformManager {
                     if (pos != null) {
                         player.findFreePosition(pos);
                     } else {
-                        player.printError("No block in sight (or too far)!");
+                        player.printError("No hay un bloque o está demasiado lejos.");
                     }
 
                     event.setCancelled(true);
