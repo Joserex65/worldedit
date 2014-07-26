@@ -413,7 +413,7 @@ public class PlatformManager {
                     }
 
                     if (!player.passThroughForwardWall(40)) {
-                        player.printError("Nothing to pass through!");
+                        player.printError("No se puede pasar a traves de ningun bloque.);
                     }
 
                     event.setCancelled(true);
